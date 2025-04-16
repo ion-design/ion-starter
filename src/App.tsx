@@ -1,12 +1,12 @@
-import React, { type ReactElement } from 'react';
-import { Route, Routes } from 'react-router-dom';
+import React, { type ReactElement } from "react";
+import { Route, Routes } from "react-router-dom";
 
-import Generation from './Generation';
+import Welcome from "./Welcome";
 
 function App(): ReactElement {
   return (
     <Routes>
-      <Route path="/" element={<Generation />} />
+      <Route path="/" element={<Welcome />} />
     </Routes>
   );
 }
