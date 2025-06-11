@@ -15,7 +15,7 @@ function App(): ReactElement {
             Waiting for content
           </h1>
           <p className="text-gray-500 text-sm leading-relaxed">
-            This is a placeholder screen. The AI will replace this with your requested content.
+            This is a placeholder screen. The AI will replace this with your app.
           </p>
         </div>
 
