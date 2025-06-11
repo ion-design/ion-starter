@@ -6,24 +6,24 @@ function App(): ReactElement {
   return (
     <div
       className={cn(
-        'absolute inset-0 z-0 overflow-hidden bg-white flex items-center justify-center',
+        'absolute inset-0 z-0 overflow-hidden bg-gray-50 flex items-center justify-center',
       )}
     >
-      <div className="text-center space-y-4 max-w-sm mx-auto px-6">
-        <div className="space-y-2">
-          <h1 className="text-lg font-normal text-gray-800">
-            Empty canvas
+      <div className="text-center space-y-6 max-w-md mx-auto px-8">
+        <div className="space-y-3">
+          <h1 className="text-xl font-medium text-gray-900">
+            Waiting for content
           </h1>
-          <p className="text-gray-400 text-xs">
-            Awaiting your next creation
+          <p className="text-gray-500 text-sm leading-relaxed">
+            This is a placeholder screen. The AI will replace this with your requested content.
           </p>
         </div>
 
-        <div className="w-12 h-px bg-gray-300 mx-auto" />
-
-        <p className="text-gray-300 text-xs uppercase tracking-wide">
-          Placeholder
-        </p>
+        <div className="pt-4 border-t border-gray-200">
+          <p className="text-xs text-gray-400">
+            Ready to be replaced
+          </p>
+        </div>
       </div>
     </div>
   );
