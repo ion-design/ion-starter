@@ -10,9 +10,6 @@ function App(): ReactElement {
       )}
     >
       <div className="text-center space-y-6 max-w-md mx-auto px-8">
-        {/* Simple placeholder icon */}
-        <div className="w-16 h-16 mx-auto bg-gray-200 rounded-lg" />
-
         <div className="space-y-3">
           <h1 className="text-xl font-medium text-gray-900">
             Waiting for content
