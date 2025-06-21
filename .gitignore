@@ -38,3 +38,5 @@ yarn-error.log*
 # Sentry
 .sentryclirc
 next.config.original.js
+
+.ion-target
