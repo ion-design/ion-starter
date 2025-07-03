@@ -1,6 +1,5 @@
 import React, { type ReactElement } from "react";
 import { cn } from "@/lib/utils";
-import { Route, Routes } from "react-router-dom";
 
 function App(): ReactElement {
   return (
