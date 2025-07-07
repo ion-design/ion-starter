@@ -5,7 +5,7 @@ function App(): ReactElement {
   return (
     <div
       className={cn(
-        'absolute inset-0 z-0 overflow-hidden bg-gray-50 flex items-center justify-center',
+        'absolute inset-0 z-0 overflow-hidden bg-gray-50 flex items-center justify-center border-border',
       )}
     >
       <div className="text-center space-y-6 max-w-md mx-auto px-8">
