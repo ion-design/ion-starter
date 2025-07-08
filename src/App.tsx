@@ -2,7 +2,6 @@ import React, { type ReactElement } from "react";
 import { cn } from "@/lib/utils";
 
 function App(): ReactElement {
-  const test = useState('test')
   return (
     <div
       className={cn(

@@ -5,6 +5,3 @@
 @layer base {
 }
 
-body {
-    @apply border-border
-}
