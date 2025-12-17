@@ -2,7 +2,7 @@
   "name": "ion-starter",
   "version": "0.0.0",
   "scripts": {
-    "dev": "concurrently \"node .ion/scripts/watch.js\" \"cd .ion-target && npm install && npx vite --port 3000 --host\"",
+    "dev": "node .ion/babel/babel-processor.js && concurrently \"node .ion/scripts/watch.js\" \"cd .ion-target && npm install && npx vite --port 3000 --host\"",
     "build": "node .ion/babel/babel-processor.js && cd .ion-target && npm install && npx vite build",
     "serve": "vite preview --port 3000",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0 --quiet || true",
