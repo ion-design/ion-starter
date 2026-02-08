@@ -8,7 +8,7 @@ module.exports = {
     'plugin:react/jsx-runtime',
     'plugin:react-hooks/recommended',
   ],
-  ignorePatterns: ['dist', '.eslintrc.cjs', 'main.ts'],
+  ignorePatterns: ['dist', '.eslintrc.cjs', '.next', '.ion-target'],
   parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaVersion: 'latest',
@@ -17,14 +17,13 @@ module.exports = {
       jsx: true,
     },
   },
-  plugins: ['react-refresh', 'react'],
+  plugins: ['react'],
   settings: {
     react: {
       version: 'detect',
     },
   },
   rules: {
-    'react-refresh/only-export-components': 'off',
     '@typescript-eslint/no-unused-vars': 'off',
     '@typescript-eslint/no-explicit-any': 'off',
     '@typescript-eslint/ban-ts-comment': 'off',

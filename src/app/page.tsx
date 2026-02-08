@@ -1,6 +1,6 @@
 import { cn } from "@/lib/utils";
 
-function App() {
+export default function Home() {
   return (
     <div
       className={cn(
@@ -26,5 +26,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
