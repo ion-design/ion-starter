@@ -27,6 +27,7 @@ class BabelProcessor {
     this.ignorePatterns = [
       'node_modules',
       '.git',
+      '.ion',
       '.ion-target',
       '.next',
       '.nuxt',
